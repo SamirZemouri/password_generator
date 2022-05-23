@@ -1,8 +1,9 @@
 body {
     margin: 0;
     height: 100vh;
-    background: rgb(201,171,252);
-    background: linear-gradient(125deg, rgba(201,171,252,1) 0%, rgba(119,52,225,1) 57%, rgba(64,20,134,1) 100%);
+    font-family: 'Outfit', sans-serif;
+    background: rgb(201, 171, 252);
+    background: linear-gradient(125deg, rgba(201, 171, 252, 1) 0%, rgba(119, 52, 225, 1) 57%, rgba(64, 20, 134, 1) 100%);
 }
 
 main {
@@ -12,6 +13,31 @@ main {
 
 }
 
-.navbar-brand{
-    color: #C9ABFC!important;
+.bg-dark {
+    background-color: #181E20 !important;
+    height: 70px;
+    box-shadow: 0 0px 25px 0 rgb(145 150 203 / 10%);
+}
+
+.navbar-brand {
+    /* font-family: 'Outfit', sans-serif !important; */
+    font-weight: 400;
+    color: #C9ABFC;
+    text-shadow:
+        0 0 3px #C9ABFC,
+        0 0 5px #C9ABFC,
+        0 0 0px #C9ABFC,
+        0 0 0px #C9ABFC,
+        0 0 0px #C9ABFC,
+        0 0 0px #C9ABFC,
+        0 0 00px #C9ABFC,
+        0 0 0px #C9ABFC;
+
+    font-size: 28px;
+
+
+}
+
+.logo {
+    width: 50px;
 }
