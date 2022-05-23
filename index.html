@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="length.css">
     <link rel="stylesheet" href="options.css">
     <link rel="stylesheet" href="responsive.css">
@@ -27,6 +27,7 @@
             </div>
         </nav>
         <div class="container">
+
             <div class="password-length d-flex align-items-center">
                 <img class="rule" src="./assets/length.png" alt="">
                 <h5>Password length</h5>
@@ -38,6 +39,45 @@
             <div class="recommendation d-flex align-items-center">
                 <img class="icon-information" src="./assets/information_mobile.png" alt="">
                 <p class="information">In france, ANSSI recommands a minimum length of 12 characters</p>
+            </div>
+
+            <div class="password-options d-flex align-items-center">
+                <img class="tool" src="./assets/tool.png" alt="">
+                <h5>Password options</h5>
+            </div>
+            <div class="password-checkbox d-flex flex-wrap">
+
+                <div class="box1">
+                    <input type="checkbox" name="" id="uppercase" checked="checked">
+                    <label for="uppercase"></label>
+                    <p class="check">uppercase</p>
+                </div>
+
+                <div class="box2">
+                    <input type="checkbox" name="" id="lowercase">
+                    <label for="lowercase"></label>
+                    <p class="check">lowercase</p>
+                </div>
+
+                <div class="box3">
+                    <input type="checkbox" name="" id="numbers">
+                    <label for="numbers"></label>
+                    <p class="check">numbers</p>
+                </div>
+
+                <div class="box4">
+                    <input type="checkbox" name="" id="symbols">
+                    <label for="symbols"></label>
+                    <p class="check">special characters</p>
+                </div>
+                <div class="recommendation2 d-flex align-items-center">
+                    <img class="icon-information" src="./assets/information_mobile.png" alt="">
+                    <p class="information">In france, ANSSI recommands a password including upper and lower case
+                        letters, numbers and special characters</p>
+                </div>
+            </div>
+            <div class="btn d-flex align-items-center justify-content-center ">
+            <button id="generate-button" type="button">Generate password</button>
             </div>
         </div>
     </main>

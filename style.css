@@ -1,6 +1,7 @@
 body {
     margin: 0;
     height: 100vh;
+    letter-spacing: 1px;
     font-family: 'Outfit', sans-serif;
     background: rgb(201, 171, 252);
     background: linear-gradient(125deg, rgba(201, 171, 252, 1) 0%, rgba(119, 52, 225, 1) 57%, rgba(64, 20, 134, 1) 100%);
@@ -22,6 +23,8 @@ main {
 .navbar-brand {
     /* font-family: 'Outfit', sans-serif !important; */
     font-weight: 400;
+    margin-right: 0;
+    padding-right: 5px;
     color: #C9ABFC;
     text-shadow:
         0 0 3px #C9ABFC,
@@ -33,11 +36,23 @@ main {
         0 0 00px #C9ABFC,
         0 0 0px #C9ABFC;
 
-    font-size: 28px;
+    font-size: 27px;
 
 
 }
 
 .logo {
     width: 50px;
+}
+
+#generate-button {
+    color: #1E2528;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 1rem 2rem;
+    outline: none;
+    background: rgb(201, 171, 252);
+    background: linear-gradient(90deg, rgba(201, 171, 252, 1) 0%, rgba(64, 20, 134, 1) 100%);
 }

@@ -1,0 +1,170 @@
+.password-options {
+    margin-top: 60px;
+}
+
+.password-checkbox {
+    margin-top: 40px;
+}
+
+.check{
+    color: #FEF8EA;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin:unset;
+}
+
+.tool {
+    margin-right: 15px;
+}
+
+label {
+    color: #e9e9e9;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input:checked+label {
+    background-image: url(./assets/checked.png);
+    background-size: cover;
+    border: #C9ABFC;
+    filter: brightness(100%);
+}
+
+label {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border: 2px solid #424357;
+    border-radius: 2px;
+}
+
+.box1{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.box2{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.box3{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.box4{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.recommendation2 {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #242337;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Modification de l'input Checkbox */
+
+/* .main {
+    display: block;
+    position: relative;
+}
+
+
+input[type=checkbox] {
+    visibility: hidden;
+} */
+
+/* .geekmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+} */
+
+/* Specify the background color to be shown when hovering over checkbox */
+/* .main:hover input~.geekmark {
+    background-color: #C9ABFC
+} */
+
+/* Specify the background color to be shown when checkbox is active */
+/* .main input:active~.geekmark {
+    background-color: red;
+} */
+
+/* Specify the background color to be shown when checkbox is checked */
+/* .main input:checked~.geekmark {
+    background-color: #C9ABFC;
+} */
+
+/* Checkmark to be shown in checkbox */
+/* It is not be shown when not checked */
+/* .geekmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+} */
+
+/* Display checkmark when checked */
+/* .main input:checked~.geekmark:after {
+    display: block;
+} */
+
+/* Styling the checkmark using webkit */
+/* Rotated the rectangle by 45 degree and showing only two border to make it look like a tickmark */
+
+/* .main .geekmark:after {
+    left: 8px;
+    bottom: 5px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+} */
