@@ -10,9 +10,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="length.css">
     <link rel="stylesheet" href="options.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
     <title>Password Generator</title>
 </head>
 
@@ -32,7 +34,10 @@
             <div class="password-range d-flex align-items-center">
                 <input type="text" value="12" maxlength="2" id="display-password-length">
                 <input type="range" min="4" max="24" step="1" value="12" id="length">
-
+            </div>
+            <div class="recommendation d-flex align-items-center">
+                <img class="icon-information" src="./assets/information_mobile.png" alt="">
+                <p class="information">In france, ANSSI recommands a minimum length of 12 characters</p>
             </div>
         </div>
     </main>
